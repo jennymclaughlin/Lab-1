@@ -105,4 +105,4 @@ $cf update-service config-server -c '{"git": { "uri": "https://github.com/mstine
 +
 image::../../Common/images/lab10screenshot3.png[]
 
-link:/README.md#course-materials[Course Materials home] | link:/Lab/lab_11/lab_11.adoc[Lab 11 - Circuit Breaker Dashboard]
+link:/README.md#course-materials[Course Materials home] | link:/Lab/Lab04/Lab04.adoc[Lab04 - Circuit Breaker Dashboard]
