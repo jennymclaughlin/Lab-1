@@ -317,4 +317,4 @@ buildpack: java-buildpack=v3.3.1-offline-https://github.com/cloudfoundry/java-bu
 
 image::/../../Common/images/lab8screenshot4.png[]
 
-link:/README.md#course-materials[Course Materials home] | link:/Lab/lab_09/lab_09.adoc[Lab 09 - Service Registry]
+link:/README.md#course-materials[Course Materials home] | link:/Lab/Lab02/Lab02.adoc[Lab02 - Service Registry]
