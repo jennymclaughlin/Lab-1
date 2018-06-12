@@ -71,7 +71,7 @@ applications:
 .  Build the applications
 +
 ----
-$./mvnw package
+$mvn package
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
@@ -152,7 +152,7 @@ OK
 $cf api
 API endpoint: https://api.run.pivotal.io (API version: 2.43.0)
 ----
-
+. Replace the following API endpoints with your endpoint
 . Enable Spring Cloud Services to add the certificate automatically by setting the CF_TARGET environment variable on the hello-server and hello-ui applications to the API endpoint of your Elastic Runtime instance. First do this for the hello-server application.
 +
 ----
@@ -317,4 +317,3 @@ buildpack: java-buildpack=v3.3.1-offline-https://github.com/cloudfoundry/java-bu
 
 image::/../../Common/images/lab8screenshot4.png[]
 
-link:/README.md#course-materials[Course Materials home] | link:/session_05/lab_09/lab_09.adoc[Lab 9 - Service Registry]
